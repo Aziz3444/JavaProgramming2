@@ -5,7 +5,7 @@ public class Car {
     // constructor niye inheretited edilemez çünkü constructor ile class name i aynı olmalı
     // inheritance da ise toyota constructor olarak car class ın constructor ını almaya çalışıyoruz bı olmaz
 
-    // this keyword super keyword
+    // this keyword super keyword difference super consrtructor ı çağırıyor
     public String brand, model;
     public int year;
     public double price;
@@ -53,9 +53,9 @@ public class Car {
 }
 /*
 Create a class called Car
-			instance variables:
+			instance variables: // these varaibles will be inhereited
 				brand, model, year, price, color, miles
 				add a constructor to set all the fields
 			instance methods:
-				start(), drive(),toString()
+				start(), drive(),toString() // these methods will be inhereited
  */
